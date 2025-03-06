@@ -1,5 +1,5 @@
 # 💫 About Me:
-- 🛠 **I’m currently working on**: Machine Learning projects (model training, data wrangling, etc.)<br>- 🤝 **I’m looking to collaborate on**: Open-source ML or Python-based projects<br>- 🙏 **I’m looking for help with**: Advanced algorithms and deep learning (DL) concepts<br>- 🌱 **I’m currently learning**: Python libraries (NumPy, Pandas, scikit-learn) and frameworks like TensorFlow/PyTorch<br>- 💬 **Ask me about**: Machine Learning fundamentals, data analysis, or Python tips<br>- ⚡ **Fun fact**: I can’t code without coffee, and I get excited about every new ML technique!
+- 🛠  **I’m currently working on**: Machine Learning projects (model training, data wrangling, etc.)<br>- 🤝 **I’m looking to collaborate on**: Open-source ML or Python-based projects<br>- 🙏 **I’m looking for help with**: Advanced algorithms and deep learning (DL) concepts<br>- 🌱 **I’m currently learning**: Python libraries (NumPy, Pandas, scikit-learn) and frameworks like TensorFlow/PyTorch<br>- 💬 **Ask me about**: Machine Learning fundamentals, data analysis, or Python tips<br>- ⚡ **Fun fact**: I can’t code without coffee, and I get excited about every new ML technique!
 
 
 ## 🌐 Socials:
@@ -18,10 +18,7 @@
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=berkinyl&limit=5&theme=date_night&combine_all_yearly_contributions=true)
-
 ---
-[![](https://visitcount.itsvg.in/api?id=berkinyl&icon=2&color=0)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=berkinyl&icon=8&color=13)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
