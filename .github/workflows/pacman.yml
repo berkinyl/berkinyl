@@ -1,6 +1,8 @@
-name: Generate Snake Dark
+name: Generate pacman animation
 
 on:
+  schedule:
+    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -8,21 +10,19 @@ on:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
     permissions:
       contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - uses: actions/checkout@v3
-      
-      - uses: Platane/snk@v3
-        id: snake-gif
+      - name: generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: berkinyl
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: push pacman-contribution-graph.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
