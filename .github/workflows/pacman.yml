@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -20,7 +20,6 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Dark theme için parametreler
           pacman_color: '#ffdd44'
           ghost_color: '#ff6b6b'
           bg_color: '#0d1117'
